@@ -1,0 +1,20 @@
+#! encoding=utf-8
+optimizer = "nadam"
+bidirectional = True
+embd_residual = True
+gated_rnet = True
+glove = True
+two_attention = True
+cnn_max_pooling = True
+trilinear_attn = True
+gated_concat = True
+prompt_len = 40
+response_len = 280
+batch_size = 32
+embd_dim = 300
+cnn_dim = 128
+embd_residual = True
+gated_concat = True
+dense_dropout = 0.4
+
+THLD = 0.1
